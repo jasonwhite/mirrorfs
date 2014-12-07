@@ -6,20 +6,20 @@ mount and intercepting file operations. For example, writes can be disabled to
 create a read-only view of the file system.
 
 
-# Compiling
+## Compiling
 
 ```bash
 $ make
 ```
 
-# Usage
+## Usage
 
 ```bash
 $ mkdir /tmp/mirrorfs
 $ ./mirrorfs /tmp/mirrorfs -f
 ```
 
-# License
+## License
 
     The MIT License (MIT)
 
